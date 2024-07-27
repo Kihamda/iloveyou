@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.fill {
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  flex-flow: column;
+}
+
+.cent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-grow: 1;
+}
+
+#first {
+  background-color: #cdb4db;
+}
+#first > * {
+  flex: 1;
+  display: flex;
+  font-size: xx-large;
+}
+
+#first > * * {
+  flex: 1;
+}
